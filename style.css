@@ -1,0 +1,159 @@
+html{
+	height: 100%;
+}
+
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	
+}
+
+.container{
+	position: relative;
+}
+.headpage{
+	width: 100%;
+	height: 100px;
+	
+}
+.headpage h1{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 50px;
+}
+.banner {
+  background-color: beige;
+}
+
+.logo {
+  width: 50%;
+  display: inline-block;
+}
+.logo img {
+  width: 300px;
+}
+nav {
+  display: inline-block;
+  width: 49%;
+  list-style: none;
+  text-decoration: none;
+  vertical-align: center;
+  height: 100%;
+  padding: 0px;
+ 
+}
+nav ul li {
+  display: inline-block;
+  font-size: 36px;
+  float: right;
+  margin: 0 10px;
+  color: cadetblue;
+}
+
+li a {
+  text-decoration: none;
+  color: coral;
+}
+nav ul li a:hover {
+  background-color: rgb(214, 195, 195);
+  color: rgb(255, 255, 255);
+}
+
+
+.sidebarleft{
+	margin: 150px 10px 150px 30px;
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	
+}
+
+.sidebarleft div{
+	margin: 20px 0; 
+}
+
+
+
+.articles{
+	margin-top: 50px;
+	width: 69% ;
+	display: inline-block;
+	float: right;
+	padding: 20px;
+	position: relative;
+	padding:20px 30px;
+}
+
+.article1,
+.article2,
+.article3{
+	border:1px solid gray;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.article1 p,
+.article2 p,
+.article3 p{
+	overflow: auto;
+}
+
+.article1 img{
+	float: left;
+	margin: 10px;
+	overflow: auto;
+}
+.article2 img{
+	float: right;
+	margin: 10px;
+	overflow: auto;
+}
+.article3 img{
+	float: left;
+	margin: 10px;
+	overflow: auto
+
+}
+
+ footer{
+	
+	float: right;
+	width: 100%;
+	background-color: beige;
+	height: 100px;
+	position: ;
+	bottom: 0px;
+	text-align: center;
+	
+} 
+footer a{
+	text-decoration: none;
+	color: brown;
+	margin: ;
+}
+
+.footertext{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+	background-color: rgb(54, 54, 54);
+	height: 200px;
+	width: 100%;
+	display: block;
+	position: relative;
+	bottom: 0;
+} */
